@@ -11,7 +11,7 @@ int lastpbright = 0; // last state of right push button
 void setup() {
     // Set the pin modes
     pinMode(buzz, OUTPUT);
-    pinMode(pb, INPUT);
+    pinMode(pb, INPUT_PULLUP);
     pinMode(pbleft, INPUT_PULLUP);
     pinMode(pbright, INPUT_PULLUP);
 }
